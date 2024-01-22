@@ -1,24 +1,23 @@
-// Wrivar customerName = 'bob'
-  function upperCaseCustomerName(){
-    customerName = customerName.toUpperCase()
-    return customerName
-  }
-
-function setBestCustomer(){
-  bestCustomer ='not bob'
-  return bestCustomer
-}
-function overwriteBestCustomer(){
-  bestCustomer = 'maybe bob'
-
+// Write your solution in this file!
+var customerName = "bob";
+var bestCustomer;
+function upperCaseCustomerName() {
+  customerName = customerName.toUpperCase();
+  return customerName;
 }
 
+function setBestCustomer() {
+  bestCustomer = "not bob";
+  return bestCustomer;
+}
 
-const leastFavoriteCustomer ='steve'
-function changeLeastFavoriteCustomer(){
-  leastFavoriteCustomer = 'steve'
-  return leastFavoriteCustomer = 'probably steve'
-  function changeLeastFvoriteCustomer(){
-    leastFavoriteCustomer = 'not sarah'
-  }
-}te your solution in this file!
+function overwriteBestCustomer() {
+  bestCustomer = "maybe bob";
+  return bestCustomer;
+}
+const leastFavoriteCustomer = "Dav";
+
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = "mav";
+  return leastFavoriteCustomer;
+}
